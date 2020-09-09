@@ -13,5 +13,5 @@
 * sql_queries.py: Create and Insert statements are found here and are executed in the create_tables.py file
 * etl.py: Connecets to the AWS Redshift Cluster and implements the tables created in create_tables.py
 
-# The above scripts can be run in the command line preceeded by 'python'. For example, 'python create_tables.py' would execute the create_tables.py file on a MacOs device.
+### The above scripts can be run in the command line preceeded by 'python'. For example, 'python create_tables.py' would execute the create_tables.py file on a MacOs device.
 
