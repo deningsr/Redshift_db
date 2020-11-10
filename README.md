@@ -2,15 +2,21 @@
 
 #### Project rubric can be found here: https://review.udacity.com/#!/rubrics/2501/view
 
-#### This project continues the work for imaginary startup Sparkify. The company has been expanding rapidly and their data needs have therefore increased as well. The solution presented to them involves migrating their datasets to the cloud so they can be accessed across the entire organization.
+## Purpose
+
+#### This project is intended to display my knowledge of AWS Redshift, S3 and the appropriate times to use them.
+
+#### This project includes further work for imaginary startup Sparkify. The company has been expanding rapidly and their data needs have increased as a result. The solution presented to them involves migrating their datasets to the cloud so they can be accessed across the entire organization.
 
 #### AWS Redshift has been deemed the best place to host their data, which is stored in S3. This data will be copied into staging tables and then populated into the appropriate fact and dimension tables.
 
-#### This repository contains three scripts that execute the proces above and can all be run in the MacOS Terminal or Windows Command Line in the order below:
+## Running the Project
 
-* <code>create_tables.py</code>: Drops any existing tables and creates new ones from queries found in the sql_queries.py file
-* <code>sql_queries.py</code>: Create and Insert statements are found here and are executed in the create_tables.py file
-* <code>etl.py</code>: Connecets to the AWS Redshift Cluster and implements the tables created in create_tables.py
+#### This repository contains three scripts that execute the process above and should be run the order below:
 
-#### The above scripts can be run in the command line preceeded by 'python'.
+* <code>create_tables.py</code>: Drops any existing tables and creates new ones from queries found in <code>sql_queries.py</code>
+
+* <code>sql_queries.py</code>: Create and insert statements are found here and are executed in the <code>create_tables.py</code> file
+
+* <code>etl.py</code>: Connects to the AWS Redshift Cluster and implements the tables created in <code>create_tables.py</code>
 
